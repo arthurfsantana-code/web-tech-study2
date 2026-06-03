@@ -4,20 +4,81 @@
 }
 body {
     font-family: Arial, sans-serif;
-    background-color: #cfc8c8;
+    background-color:   #aa9d9d;
 }
 .container {
     width: 100%;
-    max-width: 1000px;
-    border: 1px solid;
+    max-width: 1000px;  
     margin: 0 auto;
+    background-color: #e2d8d8;
+    
+
 }
 header {
-    background-color: #6b4141;
+    background-color: #6d4c4c;
     height: 150px;
+    display: flex;
+    align-items: center;
+
+    
 }
 header h1 {
-    color: #fff;
+    color: #e4dbdb;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 60px;
+    font-size: 30px;
+}
+.content {
+    max-width: 400px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.header-cad {
+    background-color: #f8f8f8;
+    color: #d8b5b5;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+form {
+       background-color: #cfc8c8;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    border: 2px solid #6d4c4c;
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+}
+.oi {
+    display: flex;
+    flex-direction: column;
+    padding: auto;
+    margin-top: auto;
+   background-color: #6b4141;
+   height: 80px;
+   text-align: center;
+   color: #fff;
+   align-items:center;
+   justify-content: center;
+}
+.form-control {
+    margin-bottom: 5px;
+     width: 100%;          
+    padding: 5px;       
+    font-size: 16px;       
+    box-sizing: border-box; 
+    margin-top: 5px; 
+
+}
+.cadastrar {
+    background-color: #6d4c4c;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 13px;
+    cursor: pointer;
+    border: #242424;
+    border-radius: 0%;
 }
