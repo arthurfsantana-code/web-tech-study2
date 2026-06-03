@@ -5,8 +5,13 @@ const lista = document.getElementById("lista");
 
 button.addEventListener("click", (event) => {
    event.preventDefault();
+   const input = nome.value;
+   const templateHTML = `<li>${input}</li>`;
 
-   console.log(nome.value)
+   
 
    // incluir itens no HTML
-})
+   lista.innerHTML += templateHTML;
+
+   nome.value = "";
+});

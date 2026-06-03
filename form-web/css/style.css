@@ -65,11 +65,13 @@ form {
 }
 .form-control {
     margin-bottom: 5px;
-     width: 100%;          
+     width: 90%;          
     padding: 5px;       
     font-size: 16px;       
     box-sizing: border-box; 
     margin-top: 5px; 
+    display: flex;
+    margin: 5px auto 0 auto;
 
 }
 .cadastrar {
