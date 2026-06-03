@@ -4,23 +4,19 @@
 }
 body {
     font-family: Arial, sans-serif;
-    background-color:   #aa9d9d;
+    background-color: #aa9d9d;
 }
 .container {
     width: 100%;
     max-width: 1000px;  
     margin: 0 auto;
     background-color: #e2d8d8;
-    
-
 }
 header {
     background-color: #6d4c4c;
     height: 150px;
     display: flex;
     align-items: center;
-
-    
 }
 header h1 {
     color: #e4dbdb;
@@ -30,9 +26,13 @@ header h1 {
 }
 .content {
     max-width: 400px;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 20px auto;
+}
+.caixa-formulario {
+    border: 2px solid #6d4c4c;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #cfc8c8;
 }
 .header-cad {
     background-color: #f8f8f8;
@@ -42,11 +42,7 @@ header h1 {
     font-size: 25px;
 }
 form {
-       background-color: #cfc8c8;
     padding: 20px;
-    border-radius: 5px;
-    margin-top: 20px;
-    border: 2px solid #6d4c4c;
     display: flex;
     flex-direction: column;
     gap: 15px; 
@@ -54,25 +50,22 @@ form {
 .oi {
     display: flex;
     flex-direction: column;
-    padding: auto;
-    margin-top: auto;
-   background-color: #6b4141;
-   height: 80px;
-   text-align: center;
-   color: #fff;
-   align-items:center;
-   justify-content: center;
+    background-color: #6b4141;
+    height: 80px;
+    text-align: center;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
 }
 .form-control {
     margin-bottom: 5px;
-     width: 90%;          
+    width: 100%;          
     padding: 5px;       
     font-size: 16px;       
     box-sizing: border-box; 
     margin-top: 5px; 
     display: flex;
-    margin: 5px auto 0 auto;
-
 }
 .cadastrar {
     background-color: #6d4c4c;
@@ -81,6 +74,21 @@ form {
     padding: 10px;
     font-size: 13px;
     cursor: pointer;
-    border: #242424;
     border-radius: 0%;
 }
+#lista {
+    list-style: none; 
+    padding: 0;
+    margin-top: 15px;
+}
+
+.item-usuario {
+    background-color: #cfc8c8; 
+    padding: 10px;
+    margin-bottom: 10px; 
+    border-radius: 4px;
+    color: #333;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
