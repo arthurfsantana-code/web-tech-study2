@@ -1,4 +1,6 @@
-const javaScript =  "Java Script";
+const mozilla = "Mozilla Developer Network";
 
-const js = javaScript[0] + javaScript[5];
-console.log(js);
+//mdn
+const nome = "Thiago Ribeiro";    
+let idade = 18;         
+var ativo = true;      
