@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
@@ -7,16 +7,28 @@
     <title>Nota do Aluno</title>
     <link rel="stylesheet" href="../css/nota.css">
 </head>
+
 <body>
     <main class="container">
         <form>
             <article class="form-control">
-                <label for="nota">Digite nota do aluno</label>
-                <input type="number" min="0" id="nota" >
+                <label for="nota">Digite a nota do aluno</label>
+                <input type="number" min="0" max="10" id="nota" placeholder="Ex: 7">
             </article>
-            <button id="Verifica-nota">Verificar nota</button>
+
+            <section id="message">
+                <span>Digite a nota</span>
+            </section>
+
+            <button type="button" id="Verifica-nota">
+                Verificar Nota
+            </button>
+
+            <div id="resultado"></div>
         </form>
     </main>
+
+    <script src="../js/nota.js"></script>
 </body>
 
 </html>
