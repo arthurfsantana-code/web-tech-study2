@@ -7,7 +7,7 @@ let sub = num1 - num2;
 let div = num1 / num2;
 let multiplicacao = num1 * num2;
 
-// Resultados no console
+
 console.log(soma);
 console.log(typeof soma);
 
