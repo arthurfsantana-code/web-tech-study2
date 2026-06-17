@@ -7,7 +7,7 @@ button.addEventListener("click", function(event) {
 
 popup.addEventListener("click", function(event) {
     const classOfClickElement = event.target.classList[0];
-    const ClassNameListArray = ["popup-close", "popup-link", "popup-wrapper"];
+    const ClassNameListArray = ["popup-close", "popup-link", "popup-wrapper"]
 
     console.log(ClassNameListArray.includes(classOfClickElement));
 
