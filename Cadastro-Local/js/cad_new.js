@@ -14,4 +14,7 @@ salvarBtn.addEventListener("click", function(event) {
     //salvar no localStorage
     const chave = `ValorSalvo_${Date.now()}`;
     localStorage.setItem(chave, valor); 
+
+    //limpar campo apos salvar 
+    campo.value = "";
 });
