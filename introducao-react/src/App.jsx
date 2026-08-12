@@ -1,29 +1,22 @@
-import Header from './Components/Header.jsx'
+import Header from './Components/Header.jsx' 
+import Card from './Components/Card.jsx'
+import './card.css'
 
-function App() {
 
-    return (
-    <>
-      <Header />
-      
-      <section>
-          <article>
-            <h1>Lorem Ipsun</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </article>
-        <hr />
-          <article>
-            <h1>Lorem Ipsun</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </article>
-          <hr />
-      </section>
+function App() { 
+  return ( 
+    <> 
+      <Header /> 
+      <Card /> 
 
-      <footer>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </footer>
-    </>
-  )
-}
+      <Card /> 
+
+      <Card />
+      <footer> 
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> 
+      </footer> 
+    </> 
+  ) 
+} 
 
 export default App
