@@ -1,5 +1,5 @@
-const Header = () => {
- const headerStyle = {
+const Header = (props) => {
+  const headerStyle = {
     backgroundColor: '#BEBEBE',
     padding: '20px',
     textAlign: 'center',
@@ -7,16 +7,17 @@ const Header = () => {
   };
 
   const titleStyle = {
-   fontSize: '24px',
-   margin: '0',
-   color: '#191970',
+    fontSize: '24px',
+    margin: '0',
+    color: '#191970',
   };
 
-    return(
-        <header style={headerStyle}>
-            <h1 style={titleStyle}>Introdução ao React teste</h1>
-        </header>
-    )
-}
+  console.log(props);
+  return (
+    <header style={headerStyle}>
+      <h1 style={titleStyle}>{props.title}</h1>
+    </header>
+  );
+}   
 
-export default Header;  
+export default Header;
