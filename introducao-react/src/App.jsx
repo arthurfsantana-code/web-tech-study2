@@ -1,6 +1,8 @@
 import Header from './Components/Header.jsx' 
 import Card from './Components/Card.jsx'
-import './Components/card.css'
+import Banner from './Components/Banner.jsx'
+import Footer from './Components/footer.jsx'
+
 
 
 function App() { 
@@ -11,10 +13,15 @@ function App() {
     <Header title="Lorem ipsum" />
   
     <Header title="Introdução ao React" />
+
+    <Banner>
+      <h1>Bem-Vindo ao meu site</h1>
+       <p>Aqui você encontrará conteúdos sobre desenvolvimento web.</p>
+    </Banner>
+
       <Card />
-      <footer> 
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> 
-      </footer> 
+      <Footer title="new Lorem ipsum dolor sit amet, consectetur adipiscing elit."/> 
+     
     </> 
   ) 
 } 
