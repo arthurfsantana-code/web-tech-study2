@@ -2,12 +2,12 @@ import './CarroCard.css'
 
 function CarroCard() {
   const carro = {
-    marca: 'Chevrolet',
-    modelo: 'Camaro SS',
+    marca: 'Porsche',
+    modelo: '911 GT3',
     ano: 2023,
-    motor: 'V8 6.2L',
-    potencia: '461 cv',
-    cor: 'Amarelo',
+    motor: 'Boxer 4.0L',
+    potencia: '510 cv',
+    cor: 'Cinza',
   }
 
   return (
