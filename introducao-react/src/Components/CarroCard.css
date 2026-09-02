@@ -1,0 +1,40 @@
+.carro-card {
+  width: 350px;
+  margin: 30px auto;
+  padding: 25px;
+  background-color: #1e1e2f;
+  color: white;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.carro-card h2 {
+  color: #61dafb;
+  margin-bottom: 15px;
+}
+
+.carro-info {
+  list-style: none;
+  padding: 15px;
+  margin: 0;
+  background-color: #303044;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.carro-info li {
+  font-size: 18px;
+  padding: 6px 0;
+  border-bottom: 1px solid #44445a;
+}
+
+.carro-info li:last-child {
+  border-bottom: none;
+}
+
+.carro-info span {
+  font-weight: bold;
+  color: #61dafb;
+  margin-right: 6px;
+}

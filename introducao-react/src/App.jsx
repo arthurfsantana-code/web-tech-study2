@@ -5,21 +5,14 @@ import Footer from './Components/footer.jsx'
 import ImgCard from './Components/ImgCard.jsx'
 import './Components/Img.css'
 import GameCard from './Components/GameCard.jsx'
+import CarroCard from './Components/CarroCard.jsx'
 
 
 
 function App() { 
   return ( 
     <> 
-    <Header title="Meu site" />
-    
-    <Header title="Lorem ipsum" />
-  
-    <Header title="Introdução ao React" />
-
     <ImgCard caption="Lorem ipsum dolor sit amet," />
-
-
     
     <Banner>
       <h1>Bem-Vindo ao meu site</h1>
@@ -33,7 +26,9 @@ function App() {
     Um jogo onde você pode explorar, construir e sobreviver em um mundo cheio de possibilidades.
   </p>
 </GameCard>
-    </> 
+
+    <CarroCard />
+    </>
   ) 
 } 
 
