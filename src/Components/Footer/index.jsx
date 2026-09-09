@@ -1,4 +1,4 @@
-const Footer = (props) => {
+git statusconst Footer = (props) => {
     return(
         <footer>
             <h1>{props.title} </h1>
